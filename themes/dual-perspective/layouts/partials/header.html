@@ -1,0 +1,40 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <div class="site-branding">
+                <h1 class="site-title">
+                    <a href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+                </h1>
+                <p class="site-subtitle">{{ .Site.Params.description }}</p>
+            </div>
+            
+            <div class="toggle-bar">
+                <!-- Theme Toggle -->
+                <div class="toggle-group">
+                    <span class="toggle-label">Theme</span>
+                    <div class="toggle-switch" id="theme-toggle">
+                        <input type="checkbox" id="theme-checkbox" class="toggle-input">
+                        <label for="theme-checkbox" class="toggle-slider">
+                            <span class="toggle-option toggle-light">☀️</span>
+                            <span class="toggle-option toggle-dark">🌙</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <!-- Perspective Toggle -->
+                {{ if not .IsHome }}
+                <div class="toggle-group">
+                    <span class="toggle-label">Reading</span>
+                    <div class="toggle-switch" id="perspective-toggle">
+                        <input type="checkbox" id="perspective-checkbox" class="toggle-input">
+                        <label for="perspective-checkbox" class="toggle-slider">
+                            <span class="toggle-option toggle-layman">Layman</span>
+                            <span class="toggle-option toggle-lawman">Lawman</span>
+                        </label>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</header>

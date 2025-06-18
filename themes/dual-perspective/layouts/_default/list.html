@@ -1,0 +1,43 @@
+{{ define "main" }}
+<div class="container">
+    <div class="content-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Content }}
+            <div class="content-description">
+                {{ .Content }}
+            </div>
+        {{ end }}
+    </div>
+
+    {{ if .Data.Pages }}
+    <div class="posts-list">
+        {{ range .Data.Pages }}
+            {{ $wordCount := .WordCount }}
+            {{ $readingSpeed := 200 }}
+            {{ $readingTime := div $wordCount $readingSpeed }}
+            {{ if lt $readingTime 1 }}{{ $readingTime = 1 }}{{ end }}
+            
+            <article class="post-preview">
+                <h2>
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                {{ if .Summary }}
+                    <div class="post-summary">
+                        {{ .Summary | truncate 150 }}
+                    </div>
+                {{ end }}
+                <div class="post-meta">
+                    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                    <span class="reading-time">{{ $readingTime }} min read</span>
+                </div>
+            </article>
+        {{ end }}
+    </div>
+    {{ else }}
+    <div class="empty-state">
+        <p>No posts available in this perspective yet.</p>
+        <a href="{{ "/" | relURL }}" class="read-btn">← Back to Home</a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

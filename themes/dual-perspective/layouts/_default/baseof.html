@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ if .Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+    <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    
+    <!-- Initialize Theme and Perspective -->
+    <script>
+        // Initialize theme from localStorage or system preference
+        const savedTheme = localStorage.getItem('theme') || 
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', savedTheme);
+        
+        // Initialize perspective from localStorage or default
+        const savedPerspective = localStorage.getItem('perspective') || '{{ .Site.Params.defaultPerspective }}';
+        document.documentElement.setAttribute('data-perspective', savedPerspective);
+        document.body.classList.add('perspective-' + savedPerspective);
+    </script>
+</head>
+<body>
+    {{ partial "header.html" . }}
+    
+    <main class="main-content">
+        {{ block "main" . }}{{ end }}
+    </main>
+    
+    {{ partial "footer.html" . }}
+    
+    <script src="{{ "js/perspective-toggle.js" | relURL }}"></script>
+</body>
+</html>

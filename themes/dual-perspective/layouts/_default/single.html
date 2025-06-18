@@ -1,0 +1,44 @@
+{{ define "main" }}
+<div class="container">
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">{{ .Title }}</h1>
+            <div class="post-meta">
+                {{ $wordCount := .WordCount }}
+                {{ $readingSpeed := 200 }}
+                {{ $readingTime := div $wordCount $readingSpeed }}
+                {{ if lt $readingTime 1 }}{{ $readingTime = 1 }}{{ end }}
+                
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+                <span class="reading-time">{{ $readingTime }} min read</span>
+            </div>
+        </header>
+
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+
+        <!-- Perspective Toggle for Posts -->
+        {{ if .Params.slug }}
+        <div class="post-perspective-toggle">
+            <div class="perspective-options">
+                {{ $currentSection := .Section }}
+                {{ $slug := .Params.slug }}
+                
+                {{ if eq $currentSection "lawman" }}
+                    <p class="switch-note">Also available in simplified form:</p>
+                    <a href="{{ printf "/layman/%s/" $slug | relURL }}" class="perspective-switch layman-switch">
+                        Read as Layman
+                    </a>
+                {{ else if eq $currentSection "layman" }}
+                    <p class="switch-note">Also available with technical details:</p>
+                    <a href="{{ printf "/lawman/%s/" $slug | relURL }}" class="perspective-switch lawman-switch">
+                        Read as Lawman
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+        {{ end }}
+    </article>
+</div>
+{{ end }}

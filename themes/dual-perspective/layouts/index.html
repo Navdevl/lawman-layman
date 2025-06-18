@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container">
+    <div class="homepage-content">
+        <div class="intro">
+            <p class="description">{{ .Site.Params.description }}</p>
+            
+            <p>Complex topics often exist in multiple dimensions. Legal and technical subjects can be dense and inaccessible to general audiences, while simplified explanations sometimes lack the nuance that experts require. This site bridges that gap by presenting the same content from two distinct perspectives.</p>
+            
+            <p>The <strong>Lawman perspective</strong> offers detailed, technical analysis with full legal and regulatory context. The <strong>Layman perspective</strong> provides clear, accessible explanations that focus on practical understanding without sacrificing accuracy.</p>
+        </div>
+        
+        <div class="reading-options">
+            <h3>Choose how you'd like to explore these topics:</h3>
+            <div class="perspective-buttons">
+                <a href="{{ "/lawman" | relURL }}" class="read-btn lawman-btn">
+                    Read as Lawman
+                </a>
+                <a href="{{ "/layman" | relURL }}" class="read-btn layman-btn">
+                    Read as Layman
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

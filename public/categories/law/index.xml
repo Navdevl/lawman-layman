@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Law on Lawman vs Layman</title>
+    <link>http://localhost:1313/categories/law/</link>
+    <description>Recent content in Law on Lawman vs Layman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/law/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Artificial Intelligence Regulation Framework</title>
+      <link>http://localhost:1313/lawman/artificial-intelligence-regulation/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/lawman/artificial-intelligence-regulation/</guid>
+      <description>Regulatory landscape Analysis The AI regulatory framework represents a complex intersection of emerging technology governance, risk management principles, and fundamental rights protections. Current regulatory approaches demonstrate significant jurisdictional variations in scope, enforcement mechanisms, and compliance requirements.&#xA;EU AI Act Implementation The European Union&amp;rsquo;s AI Act establishes a risk-based regulatory framework categorizing AI systems across four risk levels:&#xA;Prohibited AI Systems&#xA;Social scoring mechanisms by public authorities Real-time remote biometric identification in public spaces AI systems exploiting vulnerabilities of specific groups Subliminal techniques causing psychological harm High-Risk AI Systems Subject to conformity assessments, CE marking requirements, and ongoing monitoring obligations.</description>
+    </item>
+    <item>
+      <title>Artificial Intelligence Regulation Framework</title>
+      <link>http://localhost:1313/layman/artificial-intelligence-regulation/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/layman/artificial-intelligence-regulation/</guid>
+      <description>What Is AI Regulation? AI regulation is like creating rules for how artificial intelligence can be used, similar to how we have traffic laws for driving or food safety rules for restaurants. As AI becomes more powerful and widespread, governments are creating guidelines to make sure it&amp;rsquo;s used safely and fairly.&#xA;Why Do We Need AI Rules? Protecting People from Harm AI systems can sometimes make unfair decisions or mistakes that hurt people.</description>
+    </item>
+  </channel>
+</rss>
