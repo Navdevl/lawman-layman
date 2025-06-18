@@ -2,87 +2,87 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lawman vs Layman</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://layman-lawman.netlify.app/tags/</link>
     <description>Recent content in Tags on Lawman vs Layman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://layman-lawman.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI</title>
-      <link>http://localhost:1313/tags/ai/</link>
+      <link>https://layman-lawman.netlify.app/tags/ai/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/ai/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Basics</title>
-      <link>http://localhost:1313/tags/basics/</link>
+      <link>https://layman-lawman.netlify.app/tags/basics/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/basics/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/basics/</guid>
       <description></description>
     </item>
     <item>
       <title>Compliance</title>
-      <link>http://localhost:1313/tags/compliance/</link>
+      <link>https://layman-lawman.netlify.app/tags/compliance/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/compliance/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/compliance/</guid>
       <description></description>
     </item>
     <item>
       <title>Legal-Framework</title>
-      <link>http://localhost:1313/tags/legal-framework/</link>
+      <link>https://layman-lawman.netlify.app/tags/legal-framework/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/legal-framework/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/legal-framework/</guid>
       <description></description>
     </item>
     <item>
       <title>Policy</title>
-      <link>http://localhost:1313/tags/policy/</link>
+      <link>https://layman-lawman.netlify.app/tags/policy/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/policy/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/policy/</guid>
       <description></description>
     </item>
     <item>
       <title>Regulation</title>
-      <link>http://localhost:1313/tags/regulation/</link>
+      <link>https://layman-lawman.netlify.app/tags/regulation/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/regulation/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/regulation/</guid>
       <description></description>
     </item>
     <item>
       <title>Blockchain</title>
-      <link>http://localhost:1313/tags/blockchain/</link>
+      <link>https://layman-lawman.netlify.app/tags/blockchain/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blockchain/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/blockchain/</guid>
       <description></description>
     </item>
     <item>
       <title>Consensus</title>
-      <link>http://localhost:1313/tags/consensus/</link>
+      <link>https://layman-lawman.netlify.app/tags/consensus/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/consensus/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/consensus/</guid>
       <description></description>
     </item>
     <item>
       <title>Cryptography</title>
-      <link>http://localhost:1313/tags/cryptography/</link>
+      <link>https://layman-lawman.netlify.app/tags/cryptography/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cryptography/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/cryptography/</guid>
       <description></description>
     </item>
     <item>
       <title>Distributed-Systems</title>
-      <link>http://localhost:1313/tags/distributed-systems/</link>
+      <link>https://layman-lawman.netlify.app/tags/distributed-systems/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/distributed-systems/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/distributed-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Technology</title>
-      <link>http://localhost:1313/tags/technology/</link>
+      <link>https://layman-lawman.netlify.app/tags/technology/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/technology/</guid>
+      <guid>https://layman-lawman.netlify.app/tags/technology/</guid>
       <description></description>
     </item>
   </channel>

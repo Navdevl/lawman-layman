@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Basics on Lawman vs Layman</title>
-    <link>http://localhost:1313/tags/basics/</link>
+    <link>https://layman-lawman.netlify.app/tags/basics/</link>
     <description>Recent content in Basics on Lawman vs Layman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/basics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://layman-lawman.netlify.app/tags/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artificial Intelligence Regulation Framework</title>
-      <link>http://localhost:1313/layman/artificial-intelligence-regulation/</link>
+      <link>https://layman-lawman.netlify.app/layman/artificial-intelligence-regulation/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/layman/artificial-intelligence-regulation/</guid>
+      <guid>https://layman-lawman.netlify.app/layman/artificial-intelligence-regulation/</guid>
       <description>What Is AI Regulation? AI regulation is like creating rules for how artificial intelligence can be used, similar to how we have traffic laws for driving or food safety rules for restaurants. As AI becomes more powerful and widespread, governments are creating guidelines to make sure it&amp;rsquo;s used safely and fairly.&#xA;Why Do We Need AI Rules? Protecting People from Harm AI systems can sometimes make unfair decisions or mistakes that hurt people.</description>
     </item>
     <item>
       <title>Understanding Blockchain Technology</title>
-      <link>http://localhost:1313/layman/understanding-blockchain-technology/</link>
+      <link>https://layman-lawman.netlify.app/layman/understanding-blockchain-technology/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/layman/understanding-blockchain-technology/</guid>
+      <guid>https://layman-lawman.netlify.app/layman/understanding-blockchain-technology/</guid>
       <description>What Is Blockchain? Think of blockchain as a digital ledger book that&amp;rsquo;s shared among many people. Instead of one person or company controlling this book, thousands of computers around the world each have an identical copy.&#xA;When someone wants to add a new entry (like a transaction), all these computers must agree it&amp;rsquo;s valid before it gets added. Once something is written in this book, it&amp;rsquo;s extremely difficult to change or erase.</description>
     </item>
   </channel>

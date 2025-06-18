@@ -1,38 +1,38 @@
-baseURL = "https://lawman-layman.com"
+baseURL = "https://layman-lawman.netlify.app/"
 languageCode = "en-us"
 title = "Lawman vs Layman"
 theme = "dual-perspective"
 
 # Site parameters
 [params]
-  description = "Understanding complex topics from both technical and simplified perspectives"
-  author = "Lawman vs Layman"
-  defaultPerspective = "layman"
-  
-  # Perspective configurations
-  [params.lawman]
-    title = "Lawman Perspective"
-    description = "Technical and detailed analysis"
-    tagline = "Deep dive into the technical details"
-    
-  [params.layman]
-    title = "Layman Perspective" 
-    description = "Simplified and accessible explanations"
-    tagline = "Making complex topics understandable"
+description = "Understanding complex topics from both technical and simplified perspectives"
+author = "Lawman vs Layman"
+defaultPerspective = "layman"
+
+# Perspective configurations
+[params.lawman]
+title = "Lawman Perspective"
+description = "Technical and detailed analysis"
+tagline = "Deep dive into the technical details"
+
+[params.layman]
+title = "Layman Perspective"
+description = "Simplified and accessible explanations"
+tagline = "Making complex topics understandable"
 
 # Menu configurations removed - clean header design
 
 # Permalinks configuration
 [permalinks]
-  lawman = "/lawman/:slug/"
-  layman = "/layman/:slug/"
+lawman = "/lawman/:slug/"
+layman = "/layman/:slug/"
 
 # Markup configuration
 [markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 # Build configuration
 [build]
-  writeStats = true
+writeStats = true

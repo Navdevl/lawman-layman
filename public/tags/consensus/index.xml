@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Consensus on Lawman vs Layman</title>
-    <link>http://localhost:1313/tags/consensus/</link>
+    <link>https://layman-lawman.netlify.app/tags/consensus/</link>
     <description>Recent content in Consensus on Lawman vs Layman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/consensus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://layman-lawman.netlify.app/tags/consensus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Understanding Blockchain Technology</title>
-      <link>http://localhost:1313/lawman/understanding-blockchain-technology/</link>
+      <link>https://layman-lawman.netlify.app/lawman/understanding-blockchain-technology/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/lawman/understanding-blockchain-technology/</guid>
+      <guid>https://layman-lawman.netlify.app/lawman/understanding-blockchain-technology/</guid>
       <description>Technical Overview Blockchain technology represents a paradigm shift in distributed computing, implementing a cryptographically secured, immutable ledger system through consensus mechanisms. The fundamental architecture consists of cryptographically linked blocks containing transaction data, secured through hash functions and digital signatures.&#xA;Cryptographic Foundation The security model relies on SHA-256 hash functions for block integrity and elliptic curve digital signature algorithms (ECDSA) for transaction authentication. Each block contains:&#xA;Merkle Tree Root: Efficiently summarizes all transactions in the block Previous Block Hash: Creates the immutable chain linkage Nonce: Proof-of-work solution for consensus participation Timestamp: Temporal ordering for transaction sequencing Consensus Protocol Analysis Proof of Work (PoW) The original Bitcoin consensus mechanism requires computational work to propose blocks, creating economic incentives aligned with network security.</description>
     </item>
   </channel>
