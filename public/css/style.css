@@ -187,20 +187,24 @@ a:hover {
   cursor: pointer;
   transition: all var(--transition-fast);
   position: relative;
-  width: 80px;
-  height: 32px;
+  width: 120px;
+  height: 36px;
 }
 
 .toggle-option {
   flex: 1;
   text-align: center;
-  font-size: 0.75rem;
+  font-size: 0.6875rem;
   font-weight: 500;
-  padding: 4px 8px;
-  border-radius: 16px;
+  padding: 6px 4px;
+  border-radius: 18px;
   transition: all var(--transition-fast);
   z-index: 2;
   position: relative;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* Active state background */
@@ -212,7 +216,7 @@ a:hover {
   width: calc(50% - 4px);
   height: calc(100% - 8px);
   background-color: var(--accent-primary);
-  border-radius: 16px;
+  border-radius: 18px;
   transition: all var(--transition-fast);
   z-index: 1;
 }
@@ -332,28 +336,38 @@ a:hover {
 }
 
 .posts-list {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-lg);
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .post-preview {
-  background-color: var(--bg-secondary);
-  border: 1px solid var(--border-primary);
-  border-radius: 12px;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-lg) 0;
+  border-bottom: 1px solid var(--border-primary);
   transition: all var(--transition-fast);
 }
 
+.post-preview:last-child {
+  border-bottom: none;
+}
+
 .post-preview:hover {
-  border-color: var(--border-secondary);
-  box-shadow: 0 4px 12px var(--shadow);
-  transform: translateY(-1px);
+  background-color: var(--bg-secondary);
+  margin: 0 calc(-1 * var(--spacing-md));
+  padding-left: var(--spacing-md);
+  padding-right: var(--spacing-md);
+  border-radius: 6px;
+  border-bottom: 1px solid var(--border-primary);
+}
+
+.post-preview:hover:last-child {
+  border-bottom: none;
 }
 
 .post-preview h2 {
-  font-size: 1.25rem;
-  margin: 0 0 var(--spacing-sm) 0;
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0 0 var(--spacing-xs) 0;
   font-family: var(--font-family);
 }
 
@@ -364,13 +378,14 @@ a:hover {
 
 .post-preview h2 a:hover {
   color: var(--accent-primary);
+  text-decoration: underline;
 }
 
 .post-summary {
   color: var(--text-secondary);
-  font-size: 0.9375rem;
-  line-height: 1.6;
-  margin-bottom: var(--spacing-md);
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: var(--spacing-xs);
   font-family: var(--font-family);
 }
 
@@ -378,7 +393,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 0.8125rem;
   color: var(--text-muted);
   font-family: var(--font-family);
 }
@@ -530,12 +545,8 @@ a:hover {
     font-size: 1.75rem;
   }
   
-  .posts-list {
-    gap: var(--spacing-md);
-  }
-  
   .post-preview {
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md) 0;
   }
 }
 
@@ -562,6 +573,12 @@ a:hover {
   }
   
   .toggle-slider {
-    width: 90px;
+    width: 100px;
+    height: 32px;
+  }
+  
+  .toggle-option {
+    font-size: 0.625rem;
+    padding: 4px 2px;
   }
 }
